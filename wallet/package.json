@@ -1,0 +1,23 @@
+{
+	"name": "udex-wallet",
+	"version": "1.0.0",
+	"description": "A wallet for DEX",
+	"main": "run.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"DEX",
+		"UDEX",
+		"Obyte",
+		"autonomous agent"
+	],
+	"dependencies": {
+		"headless-obyte": "git+https://github.com/citypayorg/udex/headless-obyte.git",
+		"mongodb": "^3.5.9",
+		"ocore": "git+https://github.com/citypayorg/udex/ocore.git",
+		"rpcify": "git+https://github.com/citypayorg/udex/rpcify.git"
+	},
+	"author": "obyte",
+	"license": "MIT"
+}

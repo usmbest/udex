@@ -1,0 +1,1 @@
+*/20 * * * * cd udex-wallet; node check_daemon.js 1>>~/.config/udex-wallet/check_daemon.log 2>>~/.config/udex-wallet/check_daemon.err
