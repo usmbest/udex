@@ -3,7 +3,7 @@ package rabbitmq
 import (
 	"encoding/json"
 
-	"github.com/citypayorg/udex/udex-backend/types"
+	"github.com/citypayorg/udex/backend/types"
 )
 
 func (c *Connection) SubscribeEngineResponses(fn func(*types.EngineResponse) error) error {

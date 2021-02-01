@@ -3,7 +3,7 @@ package ws
 import (
 	sync "github.com/sasha-s/go-deadlock"
 
-	"github.com/citypayorg/udex/udex-backend/types"
+	"github.com/citypayorg/udex/backend/types"
 	"github.com/gorilla/websocket"
 )
 

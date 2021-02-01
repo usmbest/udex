@@ -9,8 +9,8 @@ RUN go get github.com/golang/dep/cmd/dep
 RUN apt-get update
 RUN apt-get install multitail
 
-RUN mkdir -p /go/src/github.com/citypayorg/udex/udex-backend
-WORKDIR /go/src/github.com/citypayorg/udex/udex-backend
+RUN mkdir -p /go/src/github.com/citypayorg/udex/backend
+WORKDIR /go/src/github.com/citypayorg/udex/backend
 
 ADD Gopkg.toml Gopkg.toml
 ADD Gopkg.lock Gopkg.lock

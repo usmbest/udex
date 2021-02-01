@@ -2,7 +2,7 @@
 ----------------------------
 cd udex-wallet
 ----------------------------
-git clone https://github.com/citypayorg/udex/udex-wallet
+git clone https://github.com/citypayorg/udex/wallet
 cd udex-wallet
 npm install
 ----------------------------
@@ -23,7 +23,7 @@ tar -C /usr/local -xzf go1.15.7.linux-amd64.tar.gz
 export PATH=$PATH:/usr/local/go/bin
 go version
 
-cd ~/udex/udex-backend
+cd ~/udex/backend
 sh start-local-testnet.sh
 ----------------------------
 ----------------------------
@@ -41,7 +41,7 @@ yarn
 
 
 github.com/citypayorg/udex/
-github.com/citypayorg/udex/udex-backend/server
+github.com/citypayorg/udex/backend/server
 
 
 

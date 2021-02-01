@@ -4,10 +4,10 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/citypayorg/udex/udex-backend/interfaces"
+	"github.com/citypayorg/udex/backend/interfaces"
 	"github.com/globalsign/mgo/bson"
 
-	"github.com/citypayorg/udex/udex-backend/types"
+	"github.com/citypayorg/udex/backend/types"
 )
 
 // TokenService struct with daos required, responsible for communicating with daos.

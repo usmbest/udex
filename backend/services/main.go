@@ -3,7 +3,7 @@ package services
 import (
 	"errors"
 
-	"github.com/citypayorg/udex/udex-backend/utils"
+	"github.com/citypayorg/udex/backend/utils"
 )
 
 var logger = utils.Logger

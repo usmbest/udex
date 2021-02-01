@@ -1,8 +1,8 @@
 package operator
 
 // import (
-// 	"github.com/citypayorg/udex/udex-backend/types"
-// 	"github.com/citypayorg/udex/udex-backend/utils"
+// 	"github.com/citypayorg/udex/backend/types"
+// 	"github.com/citypayorg/udex/backend/utils"
 // 	logging "github.com/op/go-logging"
 // )
 

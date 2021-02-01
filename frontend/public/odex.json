@@ -2,7 +2,7 @@
 	"version": "1.0",
 	"description": "UDEX AA. A decentralized exchange for trading tokens issued on Obyte.",
 	"homepage_url": "https://usm.best",
-	"source_url": "https://github.com/citypayorg/udex/udex-wallet",
+	"source_url": "https://github.com/citypayorg/udex/wallet",
 	"field_descriptions": {
 		"withdraw": "Command to withdraw funds. Set the value to 1.",
 		"asset": "ID of asset you want to withdraw (44 characters).",

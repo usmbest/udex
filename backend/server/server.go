@@ -6,20 +6,20 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/citypayorg/udex/udex-backend/app"
-	"github.com/citypayorg/udex/udex-backend/daos"
-	"github.com/citypayorg/udex/udex-backend/endpoints"
-	"github.com/citypayorg/udex/udex-backend/errors"
-	"github.com/citypayorg/udex/udex-backend/obyte"
-	"github.com/citypayorg/udex/udex-backend/operator"
-	"github.com/citypayorg/udex/udex-backend/rabbitmq"
-	"github.com/citypayorg/udex/udex-backend/services"
-	"github.com/citypayorg/udex/udex-backend/ws"
+	"github.com/citypayorg/udex/backend/app"
+	"github.com/citypayorg/udex/backend/daos"
+	"github.com/citypayorg/udex/backend/endpoints"
+	"github.com/citypayorg/udex/backend/errors"
+	"github.com/citypayorg/udex/backend/obyte"
+	"github.com/citypayorg/udex/backend/operator"
+	"github.com/citypayorg/udex/backend/rabbitmq"
+	"github.com/citypayorg/udex/backend/services"
+	"github.com/citypayorg/udex/backend/ws"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 	"golang.org/x/crypto/acme/autocert"
 
-	"github.com/citypayorg/udex/udex-backend/engine"
+	"github.com/citypayorg/udex/backend/engine"
 )
 
 func Start() {

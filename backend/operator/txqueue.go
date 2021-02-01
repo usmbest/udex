@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/citypayorg/udex/udex-backend/app"
-	"github.com/citypayorg/udex/udex-backend/interfaces"
-	"github.com/citypayorg/udex/udex-backend/rabbitmq"
-	"github.com/citypayorg/udex/udex-backend/types"
+	"github.com/citypayorg/udex/backend/app"
+	"github.com/citypayorg/udex/backend/interfaces"
+	"github.com/citypayorg/udex/backend/rabbitmq"
+	"github.com/citypayorg/udex/backend/types"
 	"github.com/streadway/amqp"
 )
 

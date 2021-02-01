@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/citypayorg/udex/udex-backend/app"
-	"github.com/citypayorg/udex/udex-backend/daos"
-	"github.com/citypayorg/udex/udex-backend/types"
+	"github.com/citypayorg/udex/backend/app"
+	"github.com/citypayorg/udex/backend/daos"
+	"github.com/citypayorg/udex/backend/types"
 	"github.com/globalsign/mgo/bson"
 	"github.com/stretchr/testify/assert"
 )

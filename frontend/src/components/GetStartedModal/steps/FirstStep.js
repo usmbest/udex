@@ -203,7 +203,7 @@ const NewsSectionRenderer = (props: Props) => {
 
           <Header mt={5}>❔ Ask for help or join the UDEX community</Header>
           <p>• If you have any suggestions, or want to get involved with the project, join us on <Link url={DISCORD_URL}>Discord</Link>, channel #udex.</p>
-          <p>• If you'd like to contribute to UDEX and make it better, or run your own UDEX based exchange, see our <Link url="https://github.com/citypayorg/udex/udex-wallet">Github</Link>.</p>
+          <p>• If you'd like to contribute to UDEX and make it better, or run your own UDEX based exchange, see our <Link url="https://github.com/citypayorg/udex/wallet">Github</Link>.</p>
         </ModalText>
       </ModalBody>
       <ModalFooter>

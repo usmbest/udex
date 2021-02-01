@@ -12,7 +12,7 @@ UDEX 분산 거래소는 분산 거래소의 보안 및 개인 정보 보호 기
 
 ## Install
 ```
-git clone https://github.com/citypayorg/udex/udex-wallet
+git clone https://github.com/citypayorg/udex/wallet
 cd udex-wallet
 npm install
 ```
@@ -37,11 +37,11 @@ The DEX consists of 4 layers:
 	* receiving orders and cancels from users through a chatbot;
 	* logging in users through a chatbot;
 	* exchanging new orders, cancels, and trades with other matchers (USMDEXes) through websocket connections.
-* [DEX backend](https://github.com/citypayorg/udex/udex-backend), written in go. It is responsible for:
+* [DEX backend](https://github.com/citypayorg/udex/backend), written in go. It is responsible for:
 	* matching orders;
 	* serving REST and websocket endponts for frontend and bot clients;
 	* forwarding events from DEX wallet to clients (browsers and bots).
-* [DEX frontend](https://github.com/citypayorg/udex/udex-frontend), written in react. It is the UI users use to interact with the exchange.
+* [DEX frontend](https://github.com/citypayorg/udex/frontend), written in react. It is the UI users use to interact with the exchange.
 
 Orders, trades, and other information is stored in a mongodb database. It is most actively used by UDEX backend but UDEX wallet also has access to it.
 
@@ -55,11 +55,11 @@ DEX는 4 개의 레이어로 구성됩니다.
 * 챗봇을 통해 사용자의 주문 및 취소를 수신합니다.
 * 챗봇을 통해 사용자 로그인
 * 웹 소켓 연결을 통해 다른 매처 (UDEX)와 새로운 주문, 취소 및 거래를 교환합니다.
-* [DEX 백엔드] (https://github.com/citypayorg/udex/udex-backend), go로 작성되었습니다. 다음을 담당합니다.
+* [DEX 백엔드] (https://github.com/citypayorg/udex/backend), go로 작성되었습니다. 다음을 담당합니다.
 * 일치하는 주문;
 * 프론트 엔드 및 봇 클라이언트를위한 REST 및 웹 소켓 엔드 폰트 제공
 * DEX 지갑에서 클라이언트 (브라우저 및 봇)로 이벤트 전달.
-* [DEX frontend] (https://github.com/citypayorg/udex/udex-frontend), react로 작성되었습니다. 사용자가 거래소와 상호 작용하는 데 사용하는 UI입니다.
+* [DEX frontend] (https://github.com/citypayorg/udex/frontend), react로 작성되었습니다. 사용자가 거래소와 상호 작용하는 데 사용하는 UI입니다.
 
 주문, 거래 및 기타 정보는 mongodb 데이터베이스에 저장됩니다. UDEX 백엔드에서 가장 많이 사용되지만 UDEX 지갑도 액세스 할 수 있습니다.
 

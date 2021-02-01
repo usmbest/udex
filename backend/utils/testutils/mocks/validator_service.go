@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	types "github.com/citypayorg/udex/udex-backend/types"
+	types "github.com/citypayorg/udex/backend/types"
 	mock "github.com/stretchr/testify/mock"
 )
 

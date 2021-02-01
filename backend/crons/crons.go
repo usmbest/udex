@@ -1,7 +1,7 @@
 package crons
 
 import (
-	"github.com/citypayorg/udex/udex-backend/services"
+	"github.com/citypayorg/udex/backend/services"
 	"github.com/robfig/cron"
 )
 

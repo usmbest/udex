@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"log"
 
-	"github.com/citypayorg/udex/udex-backend/app"
-	"github.com/citypayorg/udex/udex-backend/types"
-	"github.com/citypayorg/udex/udex-backend/utils"
+	"github.com/citypayorg/udex/backend/app"
+	"github.com/citypayorg/udex/backend/types"
+	"github.com/citypayorg/udex/backend/utils"
 	"github.com/gorilla/websocket"
 	"github.com/ybbus/jsonrpc"
 )

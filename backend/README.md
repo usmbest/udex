@@ -33,12 +33,12 @@ UDEX 분산 거래소는 분산 거래소의 보안 및 개인 정보 보호 기
 ## Install
 
 ```
-go get github.com/citypayorg/udex/udex-backend
+go get github.com/citypayorg/udex/backend
 ```
 
 ## Run
-You don't run the backend directly. Run [UDEX wallet](https://github.com/citypayorg/udex/udex-wallet) and it will launch the backend automatically.
-백엔드를 직접 실행하지 않습니다. [UDEX 지갑] (https://github.com/citypayorg/udex/udex-wallet)을 실행하면 자동으로 백엔드가 실행됩니다.
+You don't run the backend directly. Run [UDEX wallet](https://github.com/citypayorg/udex/wallet) and it will launch the backend automatically.
+백엔드를 직접 실행하지 않습니다. [UDEX 지갑] (https://github.com/citypayorg/udex/wallet)을 실행하면 자동으로 백엔드가 실행됩니다.
 
 # API Endpoints
 

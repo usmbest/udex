@@ -6,7 +6,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/citypayorg/udex/udex-backend/types"
+	"github.com/citypayorg/udex/backend/types"
 )
 
 type Wallet struct {

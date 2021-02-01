@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"github.com/alicebob/miniredis"
-	"github.com/citypayorg/udex/udex-backend/utils"
+	"github.com/citypayorg/udex/backend/utils"
 	"github.com/gomodule/redigo/redis"
 )
 

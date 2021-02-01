@@ -3,12 +3,12 @@ package services
 import (
 	"testing"
 
-	"github.com/citypayorg/udex/udex-backend/app"
-	"github.com/citypayorg/udex/udex-backend/rabbitmq"
+	"github.com/citypayorg/udex/backend/app"
+	"github.com/citypayorg/udex/backend/rabbitmq"
 
-	"github.com/citypayorg/udex/udex-backend/types"
-	"github.com/citypayorg/udex/udex-backend/utils/testutils"
-	"github.com/citypayorg/udex/udex-backend/utils/testutils/mocks"
+	"github.com/citypayorg/udex/backend/types"
+	"github.com/citypayorg/udex/backend/utils/testutils"
+	"github.com/citypayorg/udex/backend/utils/testutils/mocks"
 )
 
 func TestCancelOrder(t *testing.T) {

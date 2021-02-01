@@ -63,7 +63,7 @@ class FaqPage extends React.PureComponent {
               question="Will you be adding more features to UDEX?"
               match={match}
             >
-              Yes! However remember that we are only operators of this exchange, not the developers.  The exchange is developed by Obyte team and it is fully <a href="https://github.com/citypayorg/udex/udex-wallet" target="_blank" rel="noopener">open source</a>. Here are some of the things that Obyte team is currently working on:
+              Yes! However remember that we are only operators of this exchange, not the developers.  The exchange is developed by Obyte team and it is fully <a href="https://github.com/citypayorg/udex/wallet" target="_blank" rel="noopener">open source</a>. Here are some of the things that Obyte team is currently working on:
               <FaqList>
                 <FaqListItem>• Improved usability and bug fixes</FaqListItem>
                 <FaqListItem>• A mobile version of the site</FaqListItem>
@@ -71,7 +71,7 @@ class FaqPage extends React.PureComponent {
                 <FaqListItem>• Prediction Markets</FaqListItem>
                 <FaqListItem>• Enhanced charting</FaqListItem>
               </FaqList>
-              You can follow the development, send suggestions, and contribute at <a href="https://github.com/citypayorg/udex/udex-wallet" target="_blank" rel="noopener">Obyte github</a>.
+              You can follow the development, send suggestions, and contribute at <a href="https://github.com/citypayorg/udex/wallet" target="_blank" rel="noopener">Obyte github</a>.
             </FaqItem>
 
             <Box p={2} />
@@ -205,7 +205,7 @@ class FaqPage extends React.PureComponent {
               Here are some facts about UDEX security: 
               <FaqList>
                 <FaqListItem>• We do not hold any of your Bytes or tokens. They are all stored on an Autonomous Agent that operates strictly according to the rules that cannot be changed by anybody, including us.  You can withdraw your funds from the AA at anytime through your Obyte wallet, even if this website goes down. </FaqListItem>
-                <FaqListItem>• All UDEX source code can be read at https://github.com/citypayorg/udex/udex-wallet </FaqListItem>
+                <FaqListItem>• All UDEX source code can be read at https://github.com/citypayorg/udex/wallet </FaqListItem>
               </FaqList>
             </FaqItem>
             <Box p={2} />
@@ -230,7 +230,7 @@ class FaqPage extends React.PureComponent {
               question="Is there API access for automated trading ?"
               match={match}
             >
-              Yes!  See API description on <a href="https://github.com/citypayorg/udex/udex-backend" target="_blank" rel="noopener">github</a>.
+              Yes!  See API description on <a href="https://github.com/citypayorg/udex/backend" target="_blank" rel="noopener">github</a>.
             </FaqItem>
 
             <Box p={2} />
@@ -238,7 +238,7 @@ class FaqPage extends React.PureComponent {
               question="Can I run a similar exchange myself ?"
               match={match}
             >
-              Absolutely!  You are welcome install a similar exchange using its <a href="https://github.com/citypayorg/udex/udex-wallet" target="_blank" rel="noopener">open sources</a> and make decentralized, open, and safe trading available to your audience.<br/><br/>  
+              Absolutely!  You are welcome install a similar exchange using its <a href="https://github.com/citypayorg/udex/wallet" target="_blank" rel="noopener">open sources</a> and make decentralized, open, and safe trading available to your audience.<br/><br/>  
               
               All UDEX exchanges exchange liquidity among themselves, so you won't start with empty orderbooks. You can be either a matcher and earn a matching fee (0.1% by default) on all orders you match, or you can be an affiliate for other matchers and earn an affiliate fee, or you can be both a matcher and an affiliate. Either way, you set your fees.
             </FaqItem>

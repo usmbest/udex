@@ -3,8 +3,8 @@ package endpoints
 import (
 	"encoding/json"
 
-	"github.com/citypayorg/udex/udex-backend/types"
-	"github.com/citypayorg/udex/udex-backend/ws"
+	"github.com/citypayorg/udex/backend/types"
+	"github.com/citypayorg/udex/backend/ws"
 	"github.com/gorilla/mux"
 )
 

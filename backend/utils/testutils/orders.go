@@ -3,7 +3,7 @@ package testutils
 import (
 	"time"
 
-	"github.com/citypayorg/udex/udex-backend/types"
+	"github.com/citypayorg/udex/backend/types"
 	"github.com/globalsign/mgo/bson"
 )
 

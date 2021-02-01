@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/citypayorg/udex/udex-backend/types"
+	"github.com/citypayorg/udex/backend/types"
 	"github.com/globalsign/mgo/dbtest"
 	"github.com/go-test/deep"
 	"github.com/stretchr/testify/assert"

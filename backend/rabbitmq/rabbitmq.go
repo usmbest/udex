@@ -5,8 +5,8 @@ import (
 	"crypto/x509"
 	"log"
 
-	"github.com/citypayorg/udex/udex-backend/app"
-	"github.com/citypayorg/udex/udex-backend/utils"
+	"github.com/citypayorg/udex/backend/app"
+	"github.com/citypayorg/udex/backend/utils"
 	"github.com/streadway/amqp"
 )
 

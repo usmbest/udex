@@ -139,7 +139,7 @@ const Footer = () => (
             </NormalListItem>
             <NormalListItem>
               <LinkText
-                href="https://github.com/citypayorg/udex/udex-wallet" 
+                href="https://github.com/citypayorg/udex/wallet" 
                 target="_blank"
                 rel="noopener"
                 >

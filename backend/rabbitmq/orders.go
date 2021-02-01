@@ -5,7 +5,7 @@ import (
 	"errors"
 	"log"
 
-	"github.com/citypayorg/udex/udex-backend/types"
+	"github.com/citypayorg/udex/backend/types"
 )
 
 func (c *Connection) SubscribeOrders(fn func(*Message) error) error {

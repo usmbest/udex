@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/citypayorg/udex/udex-backend/interfaces"
-	"github.com/citypayorg/udex/udex-backend/services"
-	"github.com/citypayorg/udex/udex-backend/types"
-	"github.com/citypayorg/udex/udex-backend/utils/httputils"
+	"github.com/citypayorg/udex/backend/interfaces"
+	"github.com/citypayorg/udex/backend/services"
+	"github.com/citypayorg/udex/backend/types"
+	"github.com/citypayorg/udex/backend/utils/httputils"
 	"github.com/gorilla/mux"
 )
 

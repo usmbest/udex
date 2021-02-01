@@ -3,7 +3,7 @@ package testutils
 import (
 	"testing"
 
-	"github.com/citypayorg/udex/udex-backend/types"
+	"github.com/citypayorg/udex/backend/types"
 )
 
 func TestNewOrderFromFactory(t *testing.T) {

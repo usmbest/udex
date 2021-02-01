@@ -1,7 +1,7 @@
 package testutils
 
 import (
-	"github.com/citypayorg/udex/udex-backend/utils/testutils/mocks"
+	"github.com/citypayorg/udex/backend/utils/testutils/mocks"
 )
 
 type MockServices struct {

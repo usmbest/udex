@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/citypayorg/udex/udex-backend/types"
-	"github.com/citypayorg/udex/udex-backend/utils"
-	"github.com/citypayorg/udex/udex-backend/ws"
+	"github.com/citypayorg/udex/backend/types"
+	"github.com/citypayorg/udex/backend/utils"
+	"github.com/citypayorg/udex/backend/ws"
 
-	"github.com/citypayorg/udex/udex-backend/app"
+	"github.com/citypayorg/udex/backend/app"
 	"github.com/robfig/cron"
 )
 

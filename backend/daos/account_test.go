@@ -4,8 +4,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/citypayorg/udex/udex-backend/types"
-	"github.com/citypayorg/udex/udex-backend/utils/testutils"
+	"github.com/citypayorg/udex/backend/types"
+	"github.com/citypayorg/udex/backend/utils/testutils"
 	"github.com/globalsign/mgo/bson"
 	"github.com/stretchr/testify/assert"
 )

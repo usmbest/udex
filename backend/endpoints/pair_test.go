@@ -8,10 +8,10 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/citypayorg/udex/udex-backend/services"
-	"github.com/citypayorg/udex/udex-backend/types"
-	"github.com/citypayorg/udex/udex-backend/utils/testutils"
-	"github.com/citypayorg/udex/udex-backend/utils/testutils/mocks"
+	"github.com/citypayorg/udex/backend/services"
+	"github.com/citypayorg/udex/backend/types"
+	"github.com/citypayorg/udex/backend/utils/testutils"
+	"github.com/citypayorg/udex/backend/utils/testutils/mocks"
 	"github.com/gorilla/mux"
 )
 

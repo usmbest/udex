@@ -3,9 +3,9 @@ package endpoints
 import (
 	"net/http"
 
-	"github.com/citypayorg/udex/udex-backend/interfaces"
-	"github.com/citypayorg/udex/udex-backend/types"
-	"github.com/citypayorg/udex/udex-backend/utils/httputils"
+	"github.com/citypayorg/udex/backend/interfaces"
+	"github.com/citypayorg/udex/backend/types"
+	"github.com/citypayorg/udex/backend/utils/httputils"
 	"github.com/gorilla/mux"
 )
 

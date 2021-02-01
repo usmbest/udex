@@ -8,11 +8,11 @@ import (
 
 	"github.com/spf13/cast"
 
-	"github.com/citypayorg/udex/udex-backend/interfaces"
-	"github.com/citypayorg/udex/udex-backend/rabbitmq"
-	"github.com/citypayorg/udex/udex-backend/types"
-	"github.com/citypayorg/udex/udex-backend/utils"
-	"github.com/citypayorg/udex/udex-backend/ws"
+	"github.com/citypayorg/udex/backend/interfaces"
+	"github.com/citypayorg/udex/backend/rabbitmq"
+	"github.com/citypayorg/udex/backend/types"
+	"github.com/citypayorg/udex/backend/utils"
+	"github.com/citypayorg/udex/backend/ws"
 )
 
 var logger = utils.Logger

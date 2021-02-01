@@ -3,8 +3,8 @@ package services
 import (
 	"time"
 
-	"github.com/citypayorg/udex/udex-backend/interfaces"
-	"github.com/citypayorg/udex/udex-backend/types"
+	"github.com/citypayorg/udex/backend/interfaces"
+	"github.com/citypayorg/udex/backend/types"
 	"github.com/globalsign/mgo/bson"
 )
 

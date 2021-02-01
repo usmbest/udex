@@ -8,9 +8,9 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/citypayorg/udex/udex-backend/types"
-	"github.com/citypayorg/udex/udex-backend/utils"
-	"github.com/citypayorg/udex/udex-backend/ws"
+	"github.com/citypayorg/udex/backend/types"
+	"github.com/citypayorg/udex/backend/utils"
+	"github.com/citypayorg/udex/backend/ws"
 	"github.com/gorilla/websocket"
 	"github.com/posener/wstest"
 )

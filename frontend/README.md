@@ -12,7 +12,7 @@ UDEX 분산 거래소는 분산 거래소의 보안 및 개인 정보 보호 기
 
 # Installation
 ```
-git clone https://github.com/citypayorg/udex/udex-frontend
+git clone https://github.com/citypayorg/udex/frontend
 cd udex-frontend
 yarn
 ```

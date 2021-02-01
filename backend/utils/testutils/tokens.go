@@ -1,7 +1,7 @@
 package testutils
 
 import (
-	"github.com/citypayorg/udex/udex-backend/types"
+	"github.com/citypayorg/udex/backend/types"
 )
 
 func GetTestZRXToken() types.Token {
