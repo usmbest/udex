@@ -15,10 +15,35 @@ node run.js 1>log 2>errlog &
 ----------------------------
 cd udex-backend
 ----------------------------
+docker run -d --hostname my-rabbit --name some-rabbit rabbitmq:3
+docker run -d --name mongo-db -v /data:/data/db -p 27017:27017 mongo:3.7.7
 
+/home/dev/Downloads
+tar -C /usr/local -xzf go1.15.7.linux-amd64.tar.gz
+export PATH=$PATH:/usr/local/go/bin
+go version
 
+cd ~/udex/udex-backend
+sh start-local-testnet.sh
 ----------------------------
 ----------------------------
 cd udex-frontend
 ----------------------------
+.env
 
+cd udex-frontend
+yarn
+
+
+
+
+
+
+
+
+
+
+
+
+original code 
+https://github.com/byteball
