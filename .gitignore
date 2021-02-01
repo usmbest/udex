@@ -26,7 +26,6 @@ _testmain.go
 
 /VERSION.cache
 /bin/
-.vscode/
 vendor/
 /build.out
 /doc/articles/wiki/*.bin
