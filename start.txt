@@ -2,7 +2,7 @@
 ----------------------------
 cd udex-wallet
 ----------------------------
-git clone https://github.com/byteball/udex-wallet
+git clone https://github.com/citypayorg/udex/udex-wallet
 cd udex-wallet
 npm install
 ----------------------------
